@@ -14,6 +14,7 @@ namespace LottoBøvl
         {
             //Lav en eller anden form for menu til at vælge om du vil have lavet en kuppon eller noget andet(??????)
             Console.WriteLine("Lotto " + DateTime.Now.ToString("dd.MM.yyy"));
+            // update fra bærbar
 
 
             //Console.WriteLine(NumberGenerator());
