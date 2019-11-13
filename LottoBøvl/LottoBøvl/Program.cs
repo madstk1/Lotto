@@ -49,20 +49,10 @@ namespace LottoKuppon
 
             foreach (int number in rowArray)
             {
-                if (number > 9)
-                {
-                    row += (number + " ");
-                }
-                else
-                {
-                    row += ("0" + number + " ");
-                }
+                row += number.Format("D2");
             }
-
             return row;
         }
-
-
     }
 }
 
